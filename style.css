@@ -1,0 +1,147 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* Custom CSS */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+
+}
+body{
+    background-color: #201e2f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Itim',cursive;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 1em;
+    margin: 0;
+}
+.top_body{
+    width: 90%;
+    max-width: 600px;
+}
+#logoArea {
+    background-color: #00feb5;
+    text-align: center;
+}
+
+#form {
+    background-color: #2c3e50;
+}
+#form label{
+   display: block;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+#form input{
+   display: block;
+   font-size: 16px;
+   margin-bottom: 10px;
+   padding: 12px 15px;
+   border: 0;
+   border-radius: 25px;
+   font-family: 'Itim',cursive;
+   background-color: #34495e;font-family: 'Itim',cursive;
+   width: 100%;
+   color: #fff;
+}
+.logoArea h2 {
+    color: #2d3436;
+}
+#logoArea, .total_per_person,
+#form {
+    padding: 25px 35px;
+     margin-bottom: 20px;
+     border-radius: 10px;
+}
+.total_per_person {
+    background-color: #121617;
+    margin-bottom: 0px;
+}
+
+.people_are {
+margin-top: 20px;
+}
+.people_are p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.inner_people{
+    display: flex;
+    justify-content: space-between;
+}
+.inner_people ul{
+        list-style: none;
+        display: flex;
+}
+.inner_people ul li{
+    font-size: 20px;
+}
+#minusSum{
+    background-color: #e74c3c;
+}
+#plusSum {
+    background-color: #2ecc71;
+}
+#minusSum,
+#plusSum {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+}
+#peopleSum{
+    margin: 10px 20px 0;
+}
+#calculator{
+    background-color: #a29bfe;
+    border: 0;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Itim',cursive;
+}
+#calculator:hover{
+background-color: #6c5ce7;
+}
+.total_per_person{
+    background-color: #121617;
+    margin-bottom: 0;
+    display: none;
+}
+.total_per_person div{
+    display: flex;
+    justify-content: space-between;
+}
+.total_per_person hr{
+    border: 2px dashed #ddd;
+    margin-bottom: 10px;
+}
+.total_per_person h2{
+    color: #00feb5;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.total_per_person h3,
+.total_per_person h4 {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
